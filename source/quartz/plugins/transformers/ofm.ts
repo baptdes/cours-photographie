@@ -268,9 +268,8 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                     return {
                       type: "html",
                       data: { hProperties: { transclude: true } },
-                      value: `<blockquote class="transclude" data-url="${url}" data-block="${block}" data-embed-alias="${alias}"><a href="${
-                        url + anchor
-                      }" class="transclude-inner">Transclude of ${url}${block}</a></blockquote>`,
+                      value: `<blockquote class="transclude" data-url="${url}" data-block="${block}" data-embed-alias="${alias}"><a href="${url + anchor
+                        }" class="transclude-inner">Transclude of ${url}${block}</a></blockquote>`,
                     }
                   }
 
@@ -656,6 +655,41 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
           }
         })
       }
+
+      /* CUSTOM HTML PARSING */
+      // Add this in the htmlPlugins() section of ofm.ts
+      plugins.push(() => {
+        return (tree: HtmlRoot) => {
+          visit(tree, "element", (node, index, parent) => {
+            if (node.tagName === "img" && node.properties.alt) {
+              // Create a figure wrapper with caption
+              const figure: Element = {
+                type: "element",
+                tagName: "figure",
+                properties: {},
+                children: [
+                  node,
+                  {
+                    type: "element",
+                    tagName: "figcaption",
+                    properties: {},
+                    children: [
+                      {
+                        type: "text",
+                        value: node.properties.alt as string
+                      }
+                    ]
+                  }
+                ]
+              }
+
+              if (parent && index !== undefined) {
+                parent.children[index] = figure
+              }
+            }
+          })
+        }
+      })
 
       return plugins
     },
