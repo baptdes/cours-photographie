@@ -1,1 +1,7 @@
-{}
+{
+  "textFontFamily": "Ubuntu Nerd Font",
+  "interfaceFontFamily": "Ubuntu Nerd Font",
+  "enabledCssSnippets": [
+    "font-weight"
+  ]
+}

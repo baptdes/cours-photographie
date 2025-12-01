@@ -22,7 +22,7 @@ Most configuration can be done by passing in options to `Component.Graph()`.
 
 For example, here's what the default configuration looks like:
 
-```typescript title="quartz.layout.ts"
+```typescript
 Component.Graph({
   localGraph: {
     drag: true, // whether to allow panning the view around
