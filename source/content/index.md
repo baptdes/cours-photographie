@@ -4,6 +4,7 @@ title: Cours d'UE Photographie
 
 Bonjour l'équipe.
 
-[[Caractéristiques de l'UE]]
+Ici pour le sommaire :
+[[Caractéristiques de l'UE#Contenu de l'UE|Sommaire de l'UE]]
 
 
