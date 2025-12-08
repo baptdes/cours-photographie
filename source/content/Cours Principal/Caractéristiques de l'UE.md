@@ -7,7 +7,7 @@
 ## Contenu de l'UE
 - [[Appareil Photographique]]
 - [[Rappels d'optique géométrique]]
-- l'**Objectif** : 3 séances
+- l'[[Objectif Photographique]] : 3 séances
 - le **Capteur Photosensible** : 2 séances
 - Séance de révision (constructions géométriques)
 - Histoire de la photographie : 2 séances

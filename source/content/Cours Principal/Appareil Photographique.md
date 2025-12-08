@@ -1,33 +1,37 @@
 # Généralités
+
 Deux éléments :
+
 - le boîtier
-	- le capteur
-	- le [[#Le viseur|viseur]]
-	- l'[[#L'obturateur|obturateur]]
-- l'objectif
+  - le capteur
+  - le [[#Le viseur|viseur]]
+  - l'[[#L'obturateur|obturateur]]
+- l'[[Objectif Photographique|objectif]]
 
 ## Le viseur
+
 - Permet d'avoir une idée de l'image qui sera enregistrée
 - Deux types de viseurs :
-	- viseurs "à travers l'objectif" (*TTL* en anglois, *"Through The Lens"*), dont deux sous-types
-	  Dans les deux cas, l'image formée dans le viseurs traverse l'objectif, donc il n'y aura **pas de déformation entre cette image et l'image enregistrée**.
-		- viseurs sur écran
-		- viseurs *reflex*, plus fiable du point de vue colorimétrique
-		  Une caractéristique de la visée *reflex* (visée utilisée par tous les professionnels) est qu'il y a **un miroir qui pivote au moment de la prise de vue** (plutôt difficile à mettre en œuvre...)
-		  ![Un petit schéma du système *reflex* (crédit: Baptiste Desnouck)](bd_schéma_reflex.jpg)
-		  mais il y a des inconvénients !
-			- encombrant
-			- lourd
-			- fragile
-			- le pivotement du miroir fait du bruit (gênant lors d'un spectacle)
-			  *"Sauf si c'est du hard rock, là, ça va" - Jean-Denis Durou*
-			- cela provoque aussi de légères vibrations, gênant en photographie scientifique (ex: stéréophotométrie)
-	- viseurs optiques
-		- Les viseurs optiques utilisent un système optique secondaire
-		  ![Schéma d'un viseur optique - on voit le système secondaire! (crédit: Baptiste Desnouck)](bd_schéma_viseur_optique.jpg)
-		  Cela cause une déformation géométrique appelée "parallaxe"		  ![Example de parallaxe quand l'appareil est trop proche du sujet (crédit: Paul Bourke)](https://paulbourke.net/miscellaneous/parallaxerror/9cm.jpg)
+  - viseurs "à travers l'objectif" (*TTL* en anglois, *"Through The Lens"*), dont deux sous-types
+    Dans les deux cas, l'image formée dans le viseurs traverse l'objectif, donc il n'y aura **pas de déformation entre cette image et l'image enregistrée**.
+    - viseurs sur écran
+    - viseurs *reflex*, plus fiable du point de vue colorimétrique
+      Une caractéristique de la visée *reflex* (visée utilisée par tous les professionnels) est qu'il y a **un miroir qui pivote au moment de la prise de vue** (plutôt difficile à mettre en œuvre...)
+      ![Un petit schéma du système *reflex* (crédit: Baptiste Desnouck)](bd_schéma_reflex.jpg)
+      mais il y a des inconvénients !
+      - encombrant
+      - lourd
+      - fragile
+      - le pivotement du miroir fait du bruit (gênant lors d'un spectacle)
+        *"Sauf si c'est du hard rock, là, ça va" - Jean-Denis Durou*
+      - cela provoque aussi de légères vibrations, gênant en photographie scientifique (ex: stéréophotométrie)
+  - viseurs optiques
+    - Les viseurs optiques utilisent un système optique secondaire
+      ![Schéma d'un viseur optique - on voit le système secondaire! (crédit: Baptiste Desnouck)](bd_schéma_viseur_optique.jpg)
+      Cela cause une déformation géométrique appelée "parallaxe"          ![Example de parallaxe quand l'appareil est trop proche du sujet (crédit: Paul Bourke)](https://paulbourke.net/miscellaneous/parallaxerror/9cm.jpg)
 
 ## Les 4 gammes d'appareils
+
 Il existent quatre gammes, qui sont caractérisées par le type de visée et la possibilité ou non de changer l'objectif.
 
 |                          | TTL (*reflex*)   | TTL (écran)  | Optique          |
@@ -38,9 +42,11 @@ Il existent quatre gammes, qui sont caractérisées par le type de visée et la 
 Avant l'ère du numérique, il n'existait que le *reflex* et le compact.
 
 ## L'obturateur
+
 L'obturateur permet de laisser passer la lumière vers le capteur que pendant un laps de temps appelé "temps de pose", ou "temps d'exposition". Rien à voir avec la [[café?.png|pause café]].
 
 Il existe trois types :
+
 - Obturateur à iris (désuet)
 - Obturateur à rideau
   Comporte deux rideaux opaques qui défilent devant le capteur avec un décalage $\Delta t =$ temps de pose
@@ -50,13 +56,14 @@ Il existe trois types :
 - Obturateur éléctronique
   ⚠ L'obturateur éléctronique n'équipe pas tous les appareils numériques !
   Cet obturateur présente trois avantages :
-	- Tous les pixels sont exposés à la lumière pendant le même temps, et la même durée, et **sans décalage !**
-	- Évite les bruits et vibrations causés par les obturateurs mécaniques
-	- Permet d'atteindre des temps de pose très courts, là où les obturateurs mécaniques ne peuvent pas
+  - Tous les pixels sont exposés à la lumière pendant le même temps, et la même durée, et **sans décalage !**
+  - Évite les bruits et vibrations causés par les obturateurs mécaniques
+  - Permet d'atteindre des temps de pose très courts, là où les obturateurs mécaniques ne peuvent pas
 
 Les temps de pose peuvent prendre des valeurs prédéfinies :
 $$\Delta t \in [\underbrace{1s,\frac{1}{2}s,...,\frac{1}{100}s,...,\frac{1}{1000}s}_\text{obturateurs mécanique},...,\frac{1}{32000}s]$$
 
 Il y a deux types de pose longue :
+
 - B : temps d'appui sur le déclencheur
 - T : deux appuis successifs début/fin

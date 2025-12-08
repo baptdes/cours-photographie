@@ -680,7 +680,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                       }
                     ]
                   }
-                ]
+                ] 
               }
 
               if (parent && index !== undefined) {

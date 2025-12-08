@@ -24,7 +24,7 @@ __Exemple avec une lentille convergente__ :
 
 Avec ces trois règles, il est impossible de construire l'image d'un point situé sur l'axe optique...
 Heureusement, il existe une quatrième règle :
-4. Les plans $(P)$ et $(P')$, passant par $A$ et $A'$, et orthogonaux à l'[[Lentille mince#Axe optique|axe optique]], sont [[Conjugaison (optique)|conjugués]], soit que tout [[Points objet-image#Point object|point objet]] situé sur $(P)$ a son image sur $(P')$.
+4. Les plans $(P)$ et $(P')$, passant par $A$ et $A'$, et orthogonaux à l'[[Lentille mince#Axe optique|axe optique]], sont [[Conjugaison (optique)|conjugués]], soit que tout [[Points objet-image#Point object|point objet]] situé sur $(P)$ a son image sur $(P')$. On appelle cela la règle de l'**aplanétisme**.
    Ainsi, pour construire l'image d'un point $A$ situé sur le même **plan objet $(P)$**, on construit l'image $A'$ de $A$, et l'image $B'$ de $B$ se trouve sur le même **plan image $(P')$** que $A'$.
 
 __Exemple avec une lentille divergente__ :
