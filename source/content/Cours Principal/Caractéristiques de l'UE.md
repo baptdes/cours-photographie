@@ -8,7 +8,7 @@
 - [[Appareil Photographique]]
 - [[Rappels d'optique géométrique]]
 - l'[[Objectif Photographique]] : 3 séances
-- le **Capteur Photosensible** : 2 séances
+- le [[Récepteur Photosensible]] : 2 séances
 - Séance de révision (constructions géométriques)
 - Histoire de la photographie : 2 séances
 - Conférence sur la photo en archéologie (?)

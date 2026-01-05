@@ -43,7 +43,7 @@ Avant l'ère du numérique, il n'existait que le *reflex* et le compact.
 
 ## L'obturateur
 
-L'obturateur permet de laisser passer la lumière vers le capteur que pendant un laps de temps appelé "temps de pose", ou "temps d'exposition". Rien à voir avec la [[café?.png|pause café]].
+L'obturateur permet de laisser passer la lumière vers le capteur que pendant un laps de temps appelé "temps de pose", ou "temps d'exposition". Rien à voir avec la [[cafe.png]].
 
 Il existe trois types :
 
